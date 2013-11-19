@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3acdf56-c493-4813-a7aa-a914a7f3d6c0" name="Default" comment="" />
+    <list default="true" id="a3acdf56-c493-4813-a7aa-a914a7f3d6c0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifiers.p" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/train_classifiers.py" afterPath="$PROJECT_DIR$/Classifier.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util.py" afterPath="$PROJECT_DIR$/util.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="phillipines.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,39 +29,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Twitterer.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Twitterer.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Twitter/Twitterer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="251" selection-end="532" vertical-scroll-proportion="0.18376723" vertical-offset="0" max-vertical-offset="653">
+            <state line="27" column="0" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train_classifiers.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train_classifiers.py">
+      <file leaf-file-name="Classifier.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="40" selection-start="2722" selection-end="2722" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="2085">
+            <state line="68" column="50" selection-start="3128" selection-end="3128" vertical-scroll-proportion="0.9007937" vertical-offset="339" max-vertical-offset="1125">
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#0#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="validation.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/sklearn/utils/validation.py">
+      <file leaf-file-name="sre_parse.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda/lib/python2.7/sre_parse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="210" column="0" selection-start="7356" selection-end="7356" vertical-scroll-proportion="0.0" vertical-offset="2721" max-vertical-offset="4455">
+            <state line="795" column="0" selection-start="27208" selection-end="27208" vertical-scroll-proportion="0.0" vertical-offset="11334" max-vertical-offset="12090">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pydevd.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <file leaf-file-name="re.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda/lib/python2.7/re.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1497" column="0" selection-start="59648" selection-end="59648" vertical-scroll-proportion="0.0" vertical-offset="20597" max-vertical-offset="21570">
+            <state line="273" column="0" selection-start="11380" selection-end="11380" vertical-scroll-proportion="0.0" vertical-offset="3813" max-vertical-offset="4920">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wordnet.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/nltk/corpus/reader/wordnet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1392" column="0" selection-start="53313" selection-end="53313" vertical-scroll-proportion="0.0" vertical-offset="20513" max-vertical-offset="26670">
               <folding />
             </state>
           </provider>
@@ -64,10 +79,29 @@
       <file leaf-file-name="util.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1335">
+            <state line="76" column="0" selection-start="2313" selection-end="2313" vertical-scroll-proportion="0.0" vertical-offset="609" max-vertical-offset="1425">
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
+                <marker date="1384894664000" expanded="true" signature="2250:2311" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validation.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/sklearn/utils/validation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="210" column="0" selection-start="7356" selection-end="7356" vertical-scroll-proportion="0.0" vertical-offset="3150" max-vertical-offset="4560">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pydevd.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1497" column="0" selection-start="59648" selection-end="59648" vertical-scroll-proportion="0.0" vertical-offset="22455" max-vertical-offset="22560">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,7 +109,7 @@
       <file leaf-file-name="decorators.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/textblob/decorators.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+            <state line="35" column="0" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -97,6 +131,14 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -104,18 +146,17 @@
         <option value="$PROJECT_DIR$/Twitter/Twitterer.py" />
         <option value="$PROJECT_DIR$/Twitter/TweetLoc.py" />
         <option value="$PROJECT_DIR$/get_places.py" />
-        <option value="$PROJECT_DIR$/util.py" />
         <option value="$PROJECT_DIR$/train_classifiers.py" />
+        <option value="$PROJECT_DIR$/util.py" />
+        <option value="$PROJECT_DIR$/Classifier.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2560" />
-    <option name="y" value="-154" />
-    <option name="width" value="2560" />
-    <option name="height" value="1418" />
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -160,28 +201,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phillipines" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phillipines" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Twitter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/anaconda/envs/PyRoutes/bin/python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="true" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -242,7 +273,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="phillipines" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_classifiers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Classifier.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -411,18 +442,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2560" y="-154" width="2560" height="1418" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10405991" sideWeight="0.5159091" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.413767" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10384818" sideWeight="0.71143377" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28856623" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4840909" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48358473" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -440,13 +471,21 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="29" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/watch_twitter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="32" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Twitter/Twitterer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="19" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="495">
@@ -454,11 +493,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_classifiers.py">
+    <entry file="file://$PROJECT_DIR$/Classifier.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="28" selection-start="2701" selection-end="2701" vertical-scroll-proportion="0.0" vertical-offset="928" max-vertical-offset="1335">
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -468,6 +507,7 @@
         <state line="10" column="0" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="345">
           <folding>
             <element signature="e#0#29#0" expanded="true" />
+            <marker date="1384894664000" expanded="true" signature="2250:2311" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -502,15 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1335">
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/sklearn/utils/validation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="210" column="0" selection-start="7356" selection-end="7356" vertical-scroll-proportion="0.0" vertical-offset="2721" max-vertical-offset="4455">
@@ -525,19 +556,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_classifiers.py">
+    <entry file="file://$PROJECT_DIR$/Twitter/Twitterer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="40" selection-start="2722" selection-end="2722" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="2085">
+        <state line="27" column="0" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/nltk/corpus/reader/wordnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1392" column="0" selection-start="53313" selection-end="53313" vertical-scroll-proportion="0.0" vertical-offset="20513" max-vertical-offset="26670">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/sre_parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="795" column="0" selection-start="27208" selection-end="27208" vertical-scroll-proportion="0.0" vertical-offset="11334" max-vertical-offset="12090">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="273" column="0" selection-start="11380" selection-end="11380" vertical-scroll-proportion="0.0" vertical-offset="3813" max-vertical-offset="4920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="0" selection-start="2313" selection-end="2313" vertical-scroll-proportion="0.0" vertical-offset="609" max-vertical-offset="1425">
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
+            <marker date="1384894664000" expanded="true" signature="2250:2311" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Twitter/Twitterer.py">
+    <entry file="file://$PROJECT_DIR$/Classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="251" selection-end="532" vertical-scroll-proportion="0.18376723" vertical-offset="0" max-vertical-offset="653">
-          <folding />
+        <state line="68" column="50" selection-start="3128" selection-end="3128" vertical-scroll-proportion="0.9007937" vertical-offset="339" max-vertical-offset="1125">
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

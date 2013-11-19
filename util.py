@@ -13,9 +13,9 @@ def find_tweet(tweet, place_list):
 
 def ignore_word(word):
     ignore = False
-    ignore |= 't.co' in word
-    ignore |= 'http' in word
-    ignore |= any([True for char in word if char.isdigit()])
+    #ignore |= 't.co' in word
+    #ignore |= 'http' in word
+    #ignore |= any([True for char in word if char.isdigit()])
     return ignore
 
 
@@ -65,8 +65,14 @@ def find_good_trainers(cat_text, min_length):
 
 
 def tweet_to_feat(tweet, features):
-    words = [word.lemma for word in TextBlob(tweet).lower().tokenize()]
+    tb = TextBlob(tweet)
+    #lang = tb.detect_language()
+    words = [word.lemma for word in tb.lower().tokenize()]
     return [words.count(feature) for feature in features]
+
+
+def dict_inverse(dictionary):
+    return {val: key for key, val in dictionary.iteritems()}
 
 
 def make_training_data(cat_text, fine_labels, rough_labels, features):
